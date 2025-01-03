@@ -1,0 +1,21 @@
+<meta charset = "UTF-8">
+
+<script>
+	alert("Operações com dois numeros")
+
+	var n1 = +prompt("Digite o primeiro numero: ");
+	var n2 = +prompt("Digite o segundo numero: ");
+	
+	var soma = n1+n2;
+	var sub = n1-n2;
+	var mult = n1*n2;
+	var div = n1/n2;
+
+	document.write("O primeiro numero é: "+ n1 + "<br>");
+	document.write("O segundo numero é: "+ n2 + "<br>");
+
+	document.write("A soma é: "+ soma + "<br>");
+	document.write("A subtação é: "+ sub + "<br>");
+	document.write("A multiplicação é: "+ mult + "<br>");
+	document.write("A divisão é: "+ div + "<br>");
+	</script>
