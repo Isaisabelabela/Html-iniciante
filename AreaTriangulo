@@ -1,0 +1,14 @@
+<meta charset = "UTF-8">
+
+<script>
+	alert("Area de um triangulo")
+
+	var base = +prompt("Digite a base: ");
+	var altura = +prompt("Digite a altura: ");
+	
+	var area = (base * altura)/2;
+
+	document.write("A base é: "+ base + "<br>");
+	document.write("A altura é: "+ altura + "<br>");
+	document.write("A area é: "+ area + "<br>");
+	</script>
