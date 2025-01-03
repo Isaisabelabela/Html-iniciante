@@ -1,0 +1,25 @@
+<script>
+	alert("Media entre dois numeros")
+	/*
+	var n1 = prompt("Digite o primeiro numero: ");
+	var n2 = prompt("Digite o segundo numero: ");
+
+  O prompt() sempre retorna um valor como string. Portanto, ao somar n1 + n2 
+  diretamente, o resultado será a concatenação dos valores, e não a soma numérica.
+
+	Métodos para contornar essa questao:
+  parseInt(): Converte uma string em um número inteiro.
+    Exemplo: parseInt("10") retorna 10.
+  parseFloat(): Converte uma string em um número de ponto flutuante (com casas decimais).
+    Exemplo: parseFloat("10.5") retorna 10.5.
+  Operador unário +: Adicionar o sinal de + antes do prompt() também converte automaticamente o valor para número.
+    Exemplo: +prompt("Digite um número") retorna um número, caso o valor seja válido.
+	*/
+
+	var n1 = +prompt("Digite o primeiro numero: ");
+	var n2 = +prompt("Digite o segundo numero: ");
+	
+	var media = (n1+n2)/2;
+
+	document.write("A media e: "+ media);
+	</script>
