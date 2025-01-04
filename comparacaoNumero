@@ -1,0 +1,37 @@
+<meta charset = "UTF-8">
+
+<script>
+	alert("Analisador de numero")
+	var a = +prompt("Digite o primeiro numero: ");
+	var b = +prompt("Digite o segundo numero: ");
+	var c = +prompt("Digite o terceiro numero: ");
+
+	console.log ("primeiro numero: " + a + "<br>");
+	console.log ("segundo numero: " + b + "<br>");
+	console.log ("terceiro numero: " + c + "<br>");
+
+	if (a == b) {
+			document.write( a +" =  " + b + "<br>");
+	}
+	if (a > b) {
+			document.write(a + " > " + b + "<br>");
+	}
+	if (a >= b) {
+			document.write(a + " >= " + b + "<br>");
+	}	
+	if (c < b) {
+			document.write(c + " < " + b + "<br>");
+	}
+	if (c != b) {
+			document.write(c + " != "+ b+ "<br>");
+	}
+
+	//Outra forma de ser feito é utilizar operadores logicos indicando se a condição é vedadeira ou falsa. Dessa forma:
+
+	document.write( a, " =  ",b , ",", a==b, "<br>");
+	document.write(a, " > ",b , ",", a > b, "<br>");
+	document.write(a, " >= ", b, ",", a>=b, "<br>");
+	document.write(c, " < ", b, ",", c<b, "<br>");
+	document.write(c, " != ", b, ",", c!=b, "<br>");
+
+	</script>
