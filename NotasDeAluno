@@ -1,0 +1,16 @@
+<meta charset = "UTF-8">
+
+<script>
+	alert("Analisando nota");
+	
+	var nome = prompt("Digite o nome do aluno: ");
+	var p1 = +prompt("Digite a nota da primeira prova: ");
+	var p2 = +prompt("Digite a nota da segunda prova: ");
+	var p3 = +prompt("Digite a nota da terceira prova: ");
+
+	var media = (p1+p2+p3)/3;
+
+	document.write("Nome do aluno: " + nome + "<br>");
+	document.write("Media do aluno: "+ media.toFixed(2));
+	
+	</script>
