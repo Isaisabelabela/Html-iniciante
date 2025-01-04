@@ -1,0 +1,11 @@
+<meta charset = "UTF-8">
+
+<script>
+	alert("Conversão de temperatura °F para °C");
+	var F = +prompt("Digite o valor da temperatura em °F: ");
+	
+	var C = (5/9)*(F-32);
+
+	document.write("Temperatura em celsius: "+ C);
+	
+	</script>
