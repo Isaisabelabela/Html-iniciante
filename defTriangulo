@@ -1,0 +1,27 @@
+<meta charset = "UTF-8">
+
+<script>
+	alert("Definindo um triangulo");
+	var n1 = +prompt("Digite o primeiro lado: ");
+	var n2 = +prompt("Digite o segundo lado: ");
+	var n3 = +prompt("Digite o terceiro lado: ");
+
+	console.log ("primeiro lado: " + n1 + "<br>");
+	console.log ("segundo lado: " + n2 + "<br>");
+	console.log ("terceiro lado: " + n3 + "<br>");
+
+	if (((n1+n2)>n3)&&((n1+n3)>n2)&&((n1+n3)>n1)) {
+			document.write( " é triangulo" + "<br>");
+			if(n1 == n2 && n2 == n3){
+				document.write("equilatero" + <br>);
+			}
+			if(n1==n2 || n2==n3 || n1==n3){
+				document.write("isosceles");
+			}
+			else{
+				document.write("escaleno");
+			}
+	}
+
+	
+	</script>
