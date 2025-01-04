@@ -1,0 +1,14 @@
+<meta charset = "UTF-8">
+
+<script>
+	alert("Calculando perimetro e área de um circulo");
+
+	var raio = +prompt("Digite o valor do raio: ");
+	
+	var perimetro = 2 * Math.PI * raio;
+	var area = Math.PI * raio *raio;
+
+	document.write("Perimetro: " + perimetro.toFixed(2) + "<br>");
+	document.write("Area: "+ area.toFixed(2));
+	
+	</script>
