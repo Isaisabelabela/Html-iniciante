@@ -1,0 +1,36 @@
+<meta charset = "UTF-8">
+
+<script>
+	alert("Calculo de IMC");
+	var nome = prompt("Digite seu nome: ");
+	var massa = +prompt("Digite sua massa corporal: ");
+	var altura = +prompt("Digite sua altura: ");
+
+	var imc = massa/ (altura*altura);
+
+	if(imc < 16){
+		document.write("Magreza grave");
+	}
+	if(imc >= 16 && imc < 17){
+		document.write("Magreza moderada");
+	}
+	if(imc >= 17 && imc <18.5){
+		document.write("Magreza leve");
+	}
+	if(imc >= 18.5 && imc <25){
+		document.write("Saudável");
+	}
+	if(imc >= 25 && imc < 30){
+		document.write("Sobrepeso");
+	}
+	if(imc >= 30 && imc < 35){
+		document.write("Obesidade grau I");
+	}
+	if(imc >= 35 && imc < 40){
+		document.write("Obesidade grau II");
+	}
+	if(imc >= 40){
+		document.write("Obesidade grau III");
+	}
+
+	</script>
