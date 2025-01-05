@@ -1,0 +1,16 @@
+<meta charset = "UTF-8">
+
+<script>
+	alert("Analisador de financiamento! ");
+	var salario = +prompt("Digite o salario: ");
+	var financiamento = +prompt("Digite o valor do financiamento: ");
+
+	if (financiamento <= salario*5) {
+		document.write("Financiamento concedido");
+	}else{
+		document.write("Financiamento negado");
+	}
+
+	document.write("<br>"+"Obrigado por nos consultar!");
+
+	</script>
