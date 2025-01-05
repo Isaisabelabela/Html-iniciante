@@ -1,0 +1,28 @@
+<meta charset = "UTF-8">
+
+<script>
+	alert("PROGRAMA SOLIDÁRIO\n [1]Doar 10 reais\n[2]Doar 25 reais\n[3]Doar 50 reais\n[4]doar outros valroes\n[5]cancelar");
+	var valor;
+	var opcao = +prompt("Digite sua opção: ");
+
+	switch(opcao){
+	case 1:
+		valor = 10;
+		break;
+	case 2:
+		valor = 25;
+		break;
+	case 3:
+		valor = 50;
+		break;
+	case 4:
+		valor = +prompt("Digite o valor da doação em reais: ");
+		break;
+	default:
+		valor = 0;
+		break;
+	}
+
+	document.write("Sua doação foi de R$ "+valor+"<br>"+"Obrigada pela doação!");
+
+	</script>
