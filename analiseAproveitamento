@@ -1,0 +1,23 @@
+<meta charset = "UTF-8">
+
+<script>
+	alert("Analisador de aproveitamento! ");
+	var nome = prompt("Digite o nome do aluno: ");
+	var p1 = +prompt("Digite a nota da primeira prova: ");
+	var p2 = +prompt("Digite a nota da segunda prova: ");
+	var p3 = +prompt("Digite a nota da terceira prova: ");
+
+	media = (p1 + p2 + p3)/3;
+
+	if (media >= 7) {
+		document.write(nome + ", parabéns! Você esta aprovado(a)!");
+	}else{
+		if(media >= 5){
+			document.write(nome + ": Não aprovado com direito a prova de recuperação.");
+
+		}else{
+			document.write(nome + ": situação: Reprovado(a).");
+			}
+	}
+
+	</script>
