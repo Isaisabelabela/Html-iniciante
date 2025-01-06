@@ -1,0 +1,20 @@
+<meta charset = "UTF-8">
+
+<script>
+	//Estrutura de repetição while
+	/*Sintaxe:
+	while (expressão lógica){
+		<lista de comandos>
+	}
+	*/
+	alert("Contador de números");
+	var cont = 0;
+
+	while (cont <= 10){
+		document.write(cont + "<br>");
+		cont = cont + 1;
+	}
+
+	document.write("Terminei de contar");
+
+	</script>
