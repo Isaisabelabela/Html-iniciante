@@ -1,0 +1,20 @@
+<meta charset = "UTF-8">
+
+<script>
+	//Estrutura de repetição while
+
+	alert("Soma de números");
+	var cont = 1;
+	var num;
+	var soma = 0;
+	var quant = +prompt("Qual a quantidade de números que você deseja contar? ");
+
+	while (cont <= quant){
+		var num = +prompt("Digite o "+ cont + "o. número: ");
+		soma = soma + num;
+		cont = cont + 1;
+	}
+
+	document.write("A soma dos números é: "+soma);
+
+	</script>
