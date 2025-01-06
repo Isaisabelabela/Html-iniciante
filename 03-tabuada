@@ -1,0 +1,16 @@
+<meta charset = "UTF-8">
+
+<script>
+	//Estrutura de repetição do while
+
+	alert("Tabuada de números");
+	var cont = 1;
+	var numero = +prompt("Tabuada do número: ");
+
+	do{
+		var soma = cont *  numero;
+		document.write(numero + "X" + cont + " = " + soma + "<br>");
+		cont = cont + 1;
+	}while(cont <= 10);
+
+	</script>
