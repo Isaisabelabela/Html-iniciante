@@ -1,0 +1,32 @@
+<meta charset = "UTF-8">
+
+<script>
+	//Funções
+	/*Sintaxe:
+	função de declaração:
+	function nomedaFunção(parâmetros){
+		<comandos>
+	}
+
+	função de expressão: essa e atribuida a uma variável
+	const name = function (parâmetros){
+		<comandos>
+	}
+	*/
+	alert("Analisador de idades");
+	
+	function saltoLinha() {
+		document.write("<br><br>");
+	}
+
+	var ano = 2023;
+
+	document.write(" José tem "+(ano - 1985) + " anos");
+	saltoLinha();
+	document.write(" Maria tem "+(ano - 1992) + " anos");
+	saltoLinha();
+	document.write(" Pedro tem "+(ano - 2004) + " anos");
+	saltoLinha();
+
+
+	</script>
