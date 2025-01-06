@@ -1,0 +1,16 @@
+<meta charset = "UTF-8">
+
+<script>
+	//Estrutura de repetição for
+	/*Sintaxe:
+	for (contadorInicializa; condiçãoParada; incrementoContador){
+		<comandos a serem executados>;
+	}
+	*/
+	alert("Analisador de numeros impares");
+	
+	for(var i = 1; i < 100; i += 2){
+		document.write(i + " é ímpar!" + "<br>");
+	}
+
+	</script>
