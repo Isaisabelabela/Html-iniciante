@@ -1,0 +1,21 @@
+<meta charset = "UTF-8">
+
+<script>
+	//Estrutura de repetição do while
+
+	alert("Contador de números");
+	var cont = 1;
+	var negativo = 0;
+	var numero = +prompt("Quantos números deseja digitar? ");
+
+	do{
+		var valor = +prompt("Digite o "+cont+".o valor: ");
+		if(valor < 0){
+			negativo = negativo + 1;
+		}
+		cont = cont + 1;
+	}while(cont <= numero);
+
+	document.write("A quantidade de números negativos são: "+ negativo);
+
+	</script>
