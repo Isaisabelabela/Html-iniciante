@@ -1,0 +1,37 @@
+<meta charset = "UTF-8">
+
+<script>
+	//Funções
+
+	alert("Analisador de idades");
+	
+	function saltoLinha() {
+		document.write("<br><br>");
+	}
+
+	function somaDoisNumeros(a, b) {
+		return a + b;
+	}
+	function subtraiDoisNumeros(a, b) {
+		return a - b;
+	}
+	function divideDoisNumeros(a, b) {
+		return a / b;
+	}
+	function multiplicaDoisNumeros(a, b) {
+		return a * b;
+	}
+
+	var a = +prompt("Informe o valor de a: ");
+	var b = +prompt("Informe o valor de b: ");
+
+	document.write("A soma é: "+ somaDoisNumeros(a, b));
+	saltoLinha();
+	document.write("A subtração é: "+ subtraiDoisNumeros(a, b));
+	saltoLinha();
+	document.write("A divisão é: "+ divideDoisNumeros(a, b));
+	saltoLinha();
+	document.write("A multiplicação é: "+ multiplicaDoisNumeros(a, b));
+	saltoLinha();
+
+	</script>
