@@ -1,0 +1,16 @@
+<meta charset = "UTF-8">
+
+<script>
+	//Estrutura de repetição do while
+
+	alert("Contador de números");
+	var cont = 0;
+
+	do{
+		document.write(cont + "<br>");
+		cont = cont + 1;
+	}while(cont < 10);
+
+	document.write("Terminei de contar!");
+
+	</script>
