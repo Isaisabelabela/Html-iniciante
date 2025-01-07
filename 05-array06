@@ -1,0 +1,27 @@
+<meta charset = "UTF-8">
+
+<script>
+	//Array bidimensional: matrizes
+
+	alert("Criando matrizes");
+
+	var matrizNum = new Array(3);
+
+	for (var i = 0; i < 3; i++){
+		matrizNum[i] = [];
+
+		for (var j = 0; j < 3; j++){
+			matrizNum[i][j] = +prompt("Digite o valor matriz["+i+"]"+"["+j+"]");
+		}
+	}
+
+
+	for (var i = 0; i < 3; i++){
+		for (var j = 0; j < 3; j++){
+			document.write(matrizNum[i][j] + " ");
+		}
+		document.write("<br>");
+	}
+
+
+		</script>
