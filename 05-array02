@@ -1,0 +1,21 @@
+<meta charset = "UTF-8">
+
+<script>
+	//Array unidimencional: vetores
+
+	alert("Criando vetores");
+
+	var vetorNum = new Array(4);
+
+	for (var i = 0; i < 4; i++) {
+		vetorNum[i] = +prompt("Digite o numero da posição "+i+": ");
+		}
+	var total = 0;
+
+	for (var i = 0; i <4; i++) {
+		total = total + vetorNum[i];
+	}
+
+	document.write("A soma dos numeros é: "+total+"<br>");
+
+		</script>
