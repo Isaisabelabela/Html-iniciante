@@ -1,0 +1,18 @@
+<meta charset = "UTF-8">
+
+<script>
+	//Array unidimencional: vetores
+
+	alert("Criando vetores");
+
+	var vetorNum = new Array(4);
+	vetorNum[0] = 0;
+	vetorNum[1] = 1;
+
+	for (var i = 2; i < 10; i++) {
+		vetorNum[i] = vetorNum[i - 1] + vetorNum[i - 2];
+		document.write("Na posição "+i+", temos o valor: "+ vetorNum[i]);
+		document.write("<br>");
+		}
+
+	</script>
