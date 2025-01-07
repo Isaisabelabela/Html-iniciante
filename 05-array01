@@ -1,0 +1,37 @@
+<meta charset = "UTF-8">
+
+<script>
+	//Array unidimencional: vetores
+
+	/*Sintaxe:
+	var nome = new Array();
+	var nome = new Array(N);
+	N é o tamanho do vetor
+	*/
+
+	alert("Criando vetores");
+
+	var vetorNum = new Array(5);
+
+	vetorNum[0] = 1;
+	vetorNum[1] = 4;
+	vetorNum[2] = 7;
+	vetorNum[3] = 9;
+	vetorNum[4] = 2;
+
+	for (var i = 0; i <5; i++) {
+		document.write("Na posição "+ i + ", temos o valor: "+vetorNum[i]+"<br>");
+		}
+	
+	document.write("<br>");
+	var outroVetorNum = [1, 4, 7, 9, 2];
+	
+	for (var i = 0; i < 5; i++) {
+		document.write("Na posição "+ i + ", temos o valor: "+outroVetorNum[i]+"<br>");
+	}
+	document.write("<br>");
+
+	//para sabor o tamanho do vetor
+	document.write("Tamanho do vetorNum é:  " + vetorNum.length +"<br>");
+	document.write("Tamanho do outroVetorNum é:  " + outroVetorNum.length +"<br>");
+	</script>
