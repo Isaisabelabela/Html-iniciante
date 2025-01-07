@@ -1,0 +1,52 @@
+<meta charset = "UTF-8">
+
+<script>
+	//Array bidimensional: matrizes
+
+	alert("Criando matrizes");
+
+	var matriz1 = [[1, 2], [4, 5]];
+	var matriz2 = [[7, 8], [10, 11]];
+	var matrizSoma = [[0, 0], [0, 0]];
+	var matrizMulti = [[0, 0], [0, 0]];
+
+
+	//soma
+	for (var i = 0; i < matriz1.length; i++){
+		for (var j = 0; j < matriz1.length; j++){
+			matrizSoma[i][j] = matriz1[i][j] + matriz2[i][j];
+		}
+	}
+
+	//multiplicação
+	for (var i = 0; i < matriz1.length; i++){
+		for (var j = 0; j < matriz2.length; j++){
+			for (var k = 0; k < 2; k++){
+				matrizMulti[i][j] += matriz1[i][k] * matriz2[k][j];
+			}
+		}
+	}
+	
+	//imprime soma
+	document.write("<br><br>"+"Matriz soma:"+"<br>");
+	for (var i = 0; i < matrizSoma.length; i++){
+		document.write("<br>");
+		for (var j = 0; j < matrizSoma.length; j++){
+			document.write(matrizSoma[i][j] + "\t");
+		}
+	}
+
+	document.write("<br><br>");
+
+	//imprime multiplicação
+	document.write("<br><br>"+"Matriz multiplicação:"+"<br>");
+	for (var i = 0; i < matrizMulti.length; i++){
+		document.write("<br>");
+		for (var j = 0; j < matrizMulti.length; j++){
+			document.write(matrizMulti[i][j] + "\t");
+		}
+	}
+
+	
+		</script>
+
