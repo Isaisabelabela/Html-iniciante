@@ -1,0 +1,19 @@
+<meta charset = "UTF-8">
+
+<script>
+	alert("Procurando o menor valor");
+
+	var valorProduto = new Array(5);
+	var menor = 0;
+
+	for (var i = 0; i < valorProduto.length; i++) {
+		valorProduto[i] = +prompt("Digite o " + (i+1) + ".o valor: ");
+
+		if (valorProduto[i] < valorProduto[menor]) {
+			menor = i;
+		}
+	}
+
+	document.write("O menor valor é: " + valorProduto[menor]);
+
+	</script>
