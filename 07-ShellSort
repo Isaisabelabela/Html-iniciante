@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<script>
+    alert("Shell Sort: ordena utilizando gaps para comparar elementos distantes.");
+
+    var v = new Array(5);
+    for (var i = 0; i < 5; i++) {
+        v[i] = +prompt("Digite o " + (i + 1) + ".o número:");
+    }
+
+    var n = v.length;
+    for (var gap = Math.floor(n / 2); gap > 0; gap = Math.floor(gap / 2)) {
+        for (var i = gap; i < n; i++) {
+            var temp = v[i];
+            var j;
+            for (j = i; j >= gap && v[j - gap] > temp; j -= gap) {
+                v[j] = v[j - gap];
+            }
+            v[j] = temp;
+        }
+    }
+
+    document.write("Array ordenado com Shell Sort: " + v.join("  "));
+</script>
